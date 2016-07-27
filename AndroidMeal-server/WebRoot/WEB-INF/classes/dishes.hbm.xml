@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.bean.dishes" table="dishes">
+		<!-- 主键id -->
+		<id name="id">
+			<generator class="identity" />
+		</id>
+		<!-- 标题 -->
+		<property name="title" />
+		<!-- 介绍 -->
+		<property name="intro" />
+		<!-- 价格 -->
+		<property name="price" />
+		<!-- 数量 -->
+		<property name="amount" />
+		<!-- 图片地址 -->
+		<property name="img_url" />	
+		<!-- 类型id -->
+		<property name="typeid" />	
+		<!-- 类型名 -->
+		<property name="typename" />	
+	</class>
+
+</hibernate-mapping>

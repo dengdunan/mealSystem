@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.bean.orders" table="orders">
+		<!-- 主键id -->
+		<id name="id">
+			<generator class="identity" />
+		</id>
+		<!-- 用户id -->
+		<property name="userid" />
+		<!-- 用户名 -->
+		<property name="username" />
+		<!-- 座位 -->
+		<property name="seat" />
+		<!-- 点餐id -->
+		<property name="dishesid" />
+		<!-- 价格 -->
+		<property name="price" />
+		<!-- 数量 -->
+		<property name="amount" />
+		<!-- 订单生成时间 -->
+		<property name="createtime" />
+		<!-- 状态值 -->
+		<property name="status" />
+		
+	</class>
+
+</hibernate-mapping>

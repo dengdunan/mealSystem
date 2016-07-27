@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\mealapp\app\libs\common-utlis.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3ff738fca738935c18f8eb5a819fc999c885a9da">
+        <dex dex="D:\mealapp\app\build\intermediates\pre-dexed\debug\common-utlis-55368af653fedb6af84195d510c15506506502d8.jar" />
+    </item>
+    <item
+        jar="D:\mealapp\app\libs\cyberplayer-sdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="71d12cb04d20e8ad48454545e962e3bd1a953ec4">
+        <dex dex="D:\mealapp\app\build\intermediates\pre-dexed\debug\cyberplayer-sdk-8fa3242372718bf3a8f7a7c5456b5331931c1f7c.jar" />
+    </item>
+    <item
+        jar="D:\android stadio\an2\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\mealapp\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-dba0e89405af4683f1b19d1a64ac421c3060d969.jar" />
+    </item>
+
+</items>
